@@ -1,0 +1,245 @@
+<!doctype html>
+
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Application Infrastructure- Dotsh</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description"
+    content="At Dotsh, we provide digital services, automated facility inspection, internet of things and enterprise architecture.">
+
+  <!-- Disable screen scaling-->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+  <link rel="manifest" href="img/ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/dotsh_trans.jpg">
+  <!-- <meta name="theme-color" content="#ffffff"> -->
+
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
+  <link rel="stylesheet" href="fonts/bebas/stylesheet.css">
+  <link rel="stylesheet" href="fonts/ionicons.min.css">
+
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="css/all.css">
+
+  <!-- Vendor CSS style -->
+  <link rel="stylesheet" href="css/pageloader.css">
+
+  <!-- Uncomment below to load individualy vendor CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/vendor/swiper.min.css">
+  <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <!-- add alt layout here -->
+
+  <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+</head>
+
+<body id="menu" class="body-page" style="color: white!important;">
+
+  <div class="page-loader" id="page-loader">
+    <div>
+      <div class="icon ion-spin"></div>
+      <p>loading</p>
+    </div>
+  </div>
+
+  <!-- BEGIN OF site header Menu -->
+  <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
+
+    <!-- Begin of menu icon toggler -->
+    <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
+      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+      <span class="menu-icon menu-icon-random">
+        <span class="bars">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </span>
+      </span>
+    </button>
+    <!-- End of menu icon toggler -->
+
+    <!-- Begin of logo/brand -->
+    <a class="navbar-brand" href="index.html">
+      <span class="logo">
+        <img class="light-logo" src="img/dotsh_logo.png" alt="Logo">
+      </span>
+
+    </a>
+    <!-- End of logo/brand -->
+
+    <!-- begin of menu wrapper -->
+    <div class="all-menu-wrapper" id="navbarMenu">
+
+
+      <!-- Begin of sidebar nav menu params class: text-only / icon-only-->
+      <nav class="navbar-sidebar ">
+        <ul class="navbar-nav" id="qmenu">
+          <li class="nav-item" data-menuanchor="home">
+            <a href="index.html">
+              <i class="icon ion-ios-home-outline"></i>
+              <span class="txt">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-item" data-menuanchor="services">
+            <a href="index.html#services">
+              <i class="icon ion-ios-list-outline"></i>
+              <span class="txt">Services</span>
+            </a>
+          </li>
+          <li class="nav-item" data-menuanchor="contact">
+            <a href="index.html#contact">
+              <i class="icon ion-ios-telephone-outline"></i>
+              <span class="txt">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of sidebar nav menu -->
+    </div>
+    <!-- end of menu wrapper -->
+
+  </header>
+  <!-- END OF site header Menu-->
+
+  <!-- BEGIN OF page cover -->
+  <div class="page-cover">
+    <!-- Cover Background -->
+    <div class="cover-bg bg-img"></div>
+
+    <!-- BEGIN OF Slideshow Background - uncomment below to use background slideshow-->
+    <div class="cover-bg slide-show">
+      <i class='img' data-src='./img/bg8.png'></i>
+    </div>
+
+    <!-- Transluscent mask as filter -->
+    <div class="cover-bg-mask bg-color"></div>
+  </div>
+  <!--END OF page cover -->
+
+  <!-- BEGIN OF page main content -->
+  <main class="page-main page-fullpage main-anim" id="mainpage">
+
+    <!-- Begin of home section -->
+    <div class="section section-home fullscreen-md fp-auto-height-responsive " data-section="home">
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row">
+            <div class="col-12 col-md-12 ">
+              <!-- title and description -->
+              <div class="title-desc text-left" style="width: 100%;">
+                <h2 class="display-4 display-title home-title bordered anim-1 text-left" style="font-size: 40px">
+                  Application
+                  Infrastructure</h2>
+                <h4 class="anim-2">Setting up an aplication infrastructure can be a daunting complex affair, hence our
+                  experienced team will ensure that you get value for your investment. <br> We provide end to end
+                  Application infrastructure consulting services from design to implementation and support. The
+                  following are our value proposition:
+                </h4>
+
+              </div>
+              <div class="list">
+
+                <ol style="color: white!important;">
+                  <li class=" text-left">~ Datacenter Physical Design</li>
+                  <li class=" text-left">~ Enterprise Networking</li>
+                  <li class=" text-left">~ Compute Infrastructure</li>
+                  <li class=" text-left">~ Enterprise Backup</li>
+                  <li class=" text-left">~ Internal and third party Cloud Services</li>
+                  <li class=" text-left">~ Development Operations (Devops)</li>
+                  <li class=" text-left">~ Enterprise Architecture</li>
+                </ol>
+              </div>
+
+
+            </div>
+
+            <!-- begin of right content -->
+            <div class="col-12 col-md-6 right-content hidden-sm center-vh">
+
+            </div>
+            <!-- end of right content -->
+          </div>
+        </div>
+
+
+
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of home section -->
+
+  </main>
+  <!-- END OF page main content -->
+
+  <!-- BEGIN OF page footer -->
+  <footer id="site-footer" class="page-footer">
+    <!-- Left content -->
+    <div class="footer-left">
+      <p>&copy 2019. DOTSH All rights reserved.
+      </p>
+    </div>
+
+
+  </footer>
+  <!-- END OF site footer -->
+
+  <!-- scripts -->
+  <!-- All Javascript plugins goes here -->
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/all.min.js"></script>
+
+
+  <!-- All vendor scripts -->
+  <script src="js/vendor/scrolloverflow.min.js"></script>
+  <script src="js/vendor/all.js"></script>
+  <script src="js/particlejs/particles.min.js"></script>
+
+  <!-- Countdown script -->
+  <script src="js/jquery.downCount.js"></script>
+
+  <!-- Form script -->
+  <script src="js/form_script.js"></script>
+
+  <!-- Javascript main files -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+
+
+</html>

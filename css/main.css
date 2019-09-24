@@ -41,6 +41,16 @@ http://miradontsoa.com
 	font-family :
 	-  sans-serif Segoe UI / Roboto / Open sans / Helvetica with fallback to system-ui fonts
 */
+
+
+.section-list-feature{
+  background-image: url("../img/bg6.png")!important;
+  color: white!important;
+}
+.section-contact {
+  background-image: url("../img/bg7.png")!important;
+}
+
 .text-black {
   color: #1d1d1d !important; }
 
@@ -51,7 +61,7 @@ http://miradontsoa.com
   color: #3f4b62 !important; }
 
 .text-white {
-  color: #ffffff !important; }
+  color: #000000 !important; }
 
 .text-black {
   color: #1d1d1d !important; }
@@ -73,10 +83,12 @@ video {
   padding: 0.2em 0; }
 
 body {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  /* font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif; */
+  font-family: 'Varela Round', sans-serif;
+
   font-size: 1rem;
   background-color: #ffffff;
-  color: #1d1d1d;
+  color: #000000;
   margin: 0;
   padding: 0; }
 
@@ -96,7 +108,9 @@ a {
   cursor: pointer; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif; }
+  font-family: 'Varela Round', sans-serif;
+
+}
 
 h3, h4 {
   font-weight: normal; }
@@ -256,9 +270,9 @@ p {
 
 .btn-outline-white {
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 2px solid #001aff;
   transition: 0.3s;
-  background: none;
+  background: #001aff;
   line-height: 1; }
   .btn-outline-white.active, .btn-outline-white:active {
     color: rgba(255, 255, 255, 0.5);
@@ -2823,12 +2837,12 @@ textarea {
   min-height: 100%; }
 
 .body-page {
-  background-color: #1d1d1d;
-  color: #ffffff; }
+  background-color: #ffffff;
+  color: #000000; }
 
 .body-item {
   background-color: #1d1d1d;
-  color: #ffffff; }
+  color: #000000; }
 
 /* 4.2 Default settings .page-fullpage */
 .body-page {
@@ -3157,7 +3171,7 @@ textarea {
             transform: translateX(-50%) translateY(-50%) scale(1.2);
     text-transform: uppercase;
     opacity: 0;
-    font-weight: bold;
+    /* font-weight: bold; */
     transition: 0.3s ease-in-out;
     font-size: 4rem;
     letter-spacing: -0.075em;
@@ -3231,7 +3245,7 @@ textarea {
       margin: 0.25rem 0;
       border-top: 2px solid #D1335B; }
     .section-content .illustr-legend .legend h4 {
-      font-weight: bold;
+      /* font-weight: bold; */
       font-size: 1.5rem; }
     @media (min-width: 768px) {
       .section-content .illustr-legend .legend.legend-left {
@@ -3475,6 +3489,9 @@ textarea {
             transform: none;
     transition-delay: 0.3s;
     opacity: 1; }
+    .anim-2{
+      font-size: 18px!important;
+    }
   .section.active .anim .anim-2 {
     -webkit-transform: none;
             transform: none;
@@ -4371,7 +4388,7 @@ strong {
   font-weight: bold; }
 
 .condensed {
-  font-family: "Bebas Neue", sans-serif; }
+  font-family: 'Varela Round', sans-serif; }
 
 h1, h2, h3, h4 {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
